@@ -20,16 +20,21 @@
   xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee
                       https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd"
   version="5.0"
-  metadata-complete="true">
+  metadata-complete="false">
 
   <servlet>
-    <servlet-name>HelloWorld</servlet-name>
-    <servlet-class>com.demo.HelloWorldServlet</servlet-class>
+    <servlet-name>Demo01</servlet-name>
+    <servlet-class>com.demo.Demo01Servlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>Demo03</servlet-name>
+    <servlet-class>com.demo.Demo03Servlet</servlet-class>
   </servlet>
 
   <servlet-mapping>
-    <servlet-name>HelloWorld</servlet-name>
-    <url-pattern>/hello-world</url-pattern>
+    <servlet-name>Demo01</servlet-name>
+    <url-pattern>/demo01</url-pattern>
   </servlet-mapping>
 
 </web-app>

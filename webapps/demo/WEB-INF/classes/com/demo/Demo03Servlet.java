@@ -24,14 +24,14 @@ import jakarta.servlet.http.HttpServletResponse;
 
 import java.io.IOException;
 
-public class HelloWorldServlet extends HttpServlet {
+public class Demo03Servlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        System.out.println("----------------------->> GET: HelloWorldServlet do get");
+        System.out.println("----------------------->> GET: Demo03Servlet do get");
     }
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        System.out.println("----------------------->> POST: HelloWorldServlet do post");
+        System.out.println("----------------------->> POST: Demo03Servlet do post");
     }
 }

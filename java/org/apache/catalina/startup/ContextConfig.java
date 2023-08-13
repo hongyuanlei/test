@@ -2344,7 +2344,7 @@ public class ContextConfig implements LifecycleListener {
         JavaClass clazz = parser.parse();
         checkHandlesTypes(clazz, javaClassCache);
 
-        if (handlesTypesOnly) {
+        if (fragment.isMetadataComplete()) {
             return;
         }
 
